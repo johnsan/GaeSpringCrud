@@ -15,7 +15,9 @@
 		<h1>Create Snowboard</h1>
   
 		<form action="/sign" method="post">
+			<div style="float:left">Brand:</div>
 			<div><input type="text" name="brand" /></div>
+			<div style="float:left">Model:</div>
 			<div><input type="text" name="model" /></div>
 			<div><input type="submit" value="Create" /></div>
 		</form>
